@@ -20,7 +20,7 @@ This project is a **Job Tracker System** built with **Java Spring Boot** using a
 
 - 🔐 **JWT Authentication** implemented in the User Service.
 - 🛡️ Tokens are issued at login and required for accessing protected endpoints.
-- ✅ Tokens are **validated** across services via **Feign** or **API Gateway** (depending on architecture).
+- ✅ Tokens are **validated** across services via **Feign**.
 ---
 
 ## 🧰 Tech Stack
@@ -30,11 +30,9 @@ This project is a **Job Tracker System** built with **Java Spring Boot** using a
 - Spring Cloud OpenFeign
 - Spring Data JPA + Hibernate
 - Apache Kafka
-- MySQL / PostgreSQL
-- Eureka Discovery Server *(optional)*
-- Spring Cloud Gateway *(optional)*
-- Docker *(optional)*
-
+- MySQL
+- Eureka Discovery Server
+- Spring Cloud Gateway
 ---
 
 ## 🔗 Communication
